@@ -15,6 +15,7 @@ public class LayersStateAndExecutionRelayedMono : MonoBehaviour
 
     public bool m_useUpdateCall = true;
     public Debug m_debug;
+    [System.Serializable]
     public class Debug
     {
         public int m_layerIndexState;
