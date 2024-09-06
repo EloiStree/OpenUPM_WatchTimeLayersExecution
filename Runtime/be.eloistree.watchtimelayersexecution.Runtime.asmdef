@@ -2,7 +2,7 @@
     "name": "be.eloistree.watchtimelayersexecution",
     "rootNamespace": "",
     "references": [
-        "be.eloistree.watchexecutetime"
+        "be.elab.watchexecutetime"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
