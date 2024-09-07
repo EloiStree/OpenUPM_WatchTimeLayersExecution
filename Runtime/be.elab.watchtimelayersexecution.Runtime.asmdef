@@ -1,5 +1,5 @@
 {
-    "name": "be.eloistree.watchtimelayersexecution",
+    "name": "be.elab.watchtimelayersexecution",
     "rootNamespace": "",
     "references": [
         "be.elab.watchexecutetime"
