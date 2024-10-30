@@ -51,4 +51,15 @@ public class LayersStateAndExecutionRelayedMono : MonoBehaviour
         m_fullExecutionTime.StopCounting();
 
     }
+
+    [ContextMenu("Refresh Layer From Children")]
+    public void ResetWithLayerInChildren() { 
+    
+        m_layersToExecute = new List<LayerRelayExecutionMono>();
+        LayerRelayExecutionMono[] layers = GetComponentsInChildren<LayerRelayExecutionMono>();
+        for (int i = 0; i < layers.Length; i++)
+        {
+            m_layersToExecute.Add(layers[i]);
+        }
+    }
 }
