@@ -7,7 +7,10 @@
   "unityRelease": "",                             
   "description": "Tool that allows to watch time of a layer of code that need to execute one after an other.",                         
   "keywords": ["Script","Tool"],                       
-  "dependencies":{},     
+  "dependencies":{
+    "be.elab.watchexecutetime":"0.0.1"
+
+  },     
   "relatedPackages":{},     
   "samples" : [],     
   "author" : {
