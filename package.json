@@ -2,13 +2,13 @@
 {                                                                                
   "name": "be.elab.watchtimelayersexecution",                              
   "displayName": "Watch Time Layers Execution",                        
-  "version": "0.0.1",                         
+  "version": "2025.1.16",                         
   "unity": "2018.1",                             
   "unityRelease": "",                             
   "description": "Tool that allows to watch time of a layer of code that need to execute one after an other.",                         
   "keywords": ["Script","Tool"],                       
   "dependencies":{
-    "be.elab.watchexecutetime":"0.0.1"
+    "be.elab.watchexecutetime":"2025.1.16"
 
   },     
   "relatedPackages":{},     
